@@ -7,11 +7,9 @@ import Link from "next/link";
 import { redirect, usePathname, useRouter, useSearchParams } from "next/navigation";
 
 import gsap from "gsap";
-import { signOut, useSession } from "next-auth/react";
 import { useLocale, useTranslations } from "next-intl";
 
 import { useScrollLink } from "@/hooks/useScrollLink";
-import { formatStringLength } from "@/utils";
 
 import images from "../../../public/assets/image/images";
 
@@ -24,8 +22,6 @@ const HeaderMobile = () => {
     const router = useRouter();
     const scrollLink = useScrollLink();
     const t = useTranslations("user-info.header");
-
-    const { data: session, status } = useSession();
 
     const handleChange = (newLocale: string) => {
         const days = 30;
@@ -90,18 +86,6 @@ const HeaderMobile = () => {
         }
     }, [searchParams]);
 
-    const handleSignOut = async () => {
-        try {
-            await signOut({
-                redirect: true,
-                callbackUrl: "/"
-            });
-        } catch (error) {
-            console.error("Error during sign out:", error);
-            router.push("/");
-        }
-    };
-
     return (
         <div className='header-mobile'>
             <dl className='hm-header'>
@@ -128,75 +112,6 @@ const HeaderMobile = () => {
 
                 <div id='cssmenu'>
                     <ul>
-                        {status !== "loading" && (
-                            <>
-                                {session && (
-                                    <div className='user-info'>
-                                        <div>
-                                            <img
-                                                src='/assets/image/account.svg'
-                                                alt='Account icon'
-                                                height={50}
-                                                width={50}
-                                            />{" "}
-                                            <span>
-                                                {formatStringLength(session.user.name || session.user?.email || "")}
-                                            </span>
-                                        </div>
-
-                                        <div className='user-info-list'>
-                                            {[
-                                                {
-                                                    label: t("personal-info"),
-                                                    href: "/user/my-profile",
-                                                    icon: <i className='fa-light fa-user-edit'></i>
-                                                },
-                                                {
-                                                    label: t("my-album"),
-                                                    href: "/user/album-photo",
-                                                    icon: <i className='fa-light fa-photo-film'></i>
-                                                },
-                                                {
-                                                    label: t("logout"),
-                                                    onClick: handleSignOut,
-                                                    icon: <i className='fa-light fa-arrow-right-from-bracket'></i>
-                                                }
-                                            ].map((item, index) => (
-                                                <div key={index} className='user-info-list-item'>
-                                                    {item.href ? (
-                                                        <a href={item.href}>
-                                                            {item.icon && <span className='icon'>{item.icon}</span>}
-                                                            {item.label}
-                                                        </a>
-                                                    ) : (
-                                                        <button
-                                                            onClick={() => {
-                                                                if (item.onClick) {
-                                                                    item.onClick();
-                                                                }
-                                                            }}
-                                                        >
-                                                            {item.icon && <span className='icon'>{item.icon}</span>}
-                                                            {item.label}
-                                                        </button>
-                                                    )}
-                                                </div>
-                                            ))}
-                                        </div>
-                                    </div>
-                                )}
-                                {!session && (
-                                    <li>
-                                        <span onClick={() => router.push("/auth/signin")}>
-                                            <em>
-                                                <i className='fa-light fa-user-circle'></i>
-                                            </em>
-                                            <span>{t("login")}</span>
-                                        </span>
-                                    </li>
-                                )}
-                            </>
-                        )}
                         <li>
                             <span onClick={() => scrollLink(1, OFFSET)}>
                                 <em>

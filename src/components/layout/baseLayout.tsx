@@ -4,7 +4,6 @@ import { getMessages, getTimeZone } from "next-intl/server";
 
 import { IntErrorProvider } from "@/providers/IntErrorProvider";
 import LocaleProvider from "@/providers/LocaleProvider";
-import NextAuthProvider from "@/providers/nextAuthProvider";
 import { NotificationProvider } from "@/providers/notificationProvider";
 
 import { ReactQueryClientProvider } from "../../providers/reactQueryClientProvider";
@@ -22,9 +21,7 @@ export default async function BaseLayout({ children, locale }: Readonly<LayoutPr
         <IntErrorProvider timeZone={timeZone} locale={locale} messages={messages}>
             <LocaleProvider>
                 <ReactQueryClientProvider>
-                    <NextAuthProvider>
-                        <NotificationProvider>{children}</NotificationProvider>
-                    </NextAuthProvider>
+                    <NotificationProvider>{children}</NotificationProvider>
                 </ReactQueryClientProvider>
             </LocaleProvider>
         </IntErrorProvider>

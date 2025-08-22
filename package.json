@@ -3,11 +3,11 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "use": "dotenv -e .env.local",
+        "use": "dotenv -e .env.local || true",
         "dev": "cp .env .env.local && npm run use -- npx prisma generate && next dev --turbopack",
         "build:local": "cp .env .env.local && npm run use -- npx prisma generate && next build",
         "build:clever": "cp .env.clever .env.local && npm run use -- npx prisma generate && next build",
-        "build": "cp .env.production .env.local && npm run use -- npx prisma migrate deploy && npm run use -- npx prisma generate && next build",
+        "build": "npm run use -- npx prisma migrate deploy && npm run use -- npx prisma generate && next build",
         "start": "npm run use -- npx prisma generate && next start",
         "lint": "next lint",
         "lint:fix": "next lint --fix",

@@ -1,0 +1,58 @@
+.terms {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.terms > iframe,
+.terms > div {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.terms > div {
+    min-height: 200px;
+    line-height: 200px;
+}
+
+.terms > iframe {
+    min-height: 100vh;
+}
+
+@media all and (max-width: 479px) {
+    .terms > iframe,
+    .terms > div {
+        width: 90%;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+    .terms > iframe,
+    .terms > div {
+        width: 470px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .terms > iframe,
+    .terms > div {
+        width: 750px;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+    .terms > iframe,
+    .terms > div {
+        width: 970px;
+    }
+}
+
+@media all and (min-width: 1200px) and (max-width: 1399px) {
+    .terms > iframe,
+    .terms > div {
+        width: 1180px;
+    }
+}

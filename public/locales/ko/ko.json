@@ -1,0 +1,439 @@
+{
+    "meta-data": {
+        "title": "라이브스테이지 (STAGE) - 팬덤 문화 플랫폼",
+        "description": "라이브스테이지(STAGE/스테이지)는 팬덤과 아티스트가 직간접적으로 소통 할 수 있는 글로벌 팬덤 콘텐츠 커머스 플랫폼입니다.",
+        "manager-title": "라이브 스테이지 - 관리자",
+        "manager-description": "라이브 스테이지 모든 팬 활동을 STAGE에서 한 번에! K-POP 팬들의 최애 덕질 필수앱, STAGE!"
+    },
+
+    "home": {
+        "intro": "STAGE는 글로벌 팬덤을 위한 통합 플랫폼으로, K-POP을 비롯해 아티스트, 배우, 스포츠 스타, 프로게이머 등 다양한 크리에이터와 팬덤이 연결되는 새로운 문화의 허브를 지향합니다.",
+        "service-title-sub-2": "투표 이벤트",
+        "service-desc-1": "아티스트들과 함께 즐기는",
+        "service-desc-2": "혼자보다 함께가 더 재밌다!",
+        "service-desc-3": "팬심 가득 담긴 굿즈 총집합!",
+        "service-sub-desc-1": "실시간 소통과 독점(Exclusive) 콘텐츠!",
+        "service-sub-desc-2": "팬들의 선택, 함께 뽑는 우리의 최애 셀럽!",
+        "service-sub-desc-3": "지금 바로 최애템을 만나보세요 😊",
+        "sub-intro": "저희는 팬의 역할을 단순한 소비자가 아닌, <strong>콘텐츠와 경험을 함께 만들고 연결하는 주체로 확장</strong>하고자 합니다.<br></br><strong>STAGE는 콘텐츠 감상, 팬 커뮤니티, 그리고 커머스 경험을 하나의 여정으로 통합하여,</strong> 팬과 아티스트가 함께 성장하는 <strong>글로벌 팬덤 생태계</strong>를 만들어갑니다.<li> <strong>For Creators :</strong> 콘텐츠 유통을 넘어, 팬과 함께하는 글로벌 커머스 확장 기회</li> <li> <strong>For Fans :</strong> 더 가까운 연결, 더 다양한 경험, 나만의 정체성을 표현 가능한 공간</li> STAGE는 팬덤의 본질과 문화를 깊이 이해하며, <strong>기술과 콘텐츠를 통해 글로벌 팬덤 시장의 새로운 표준을 제시하고자 합니다.</strong>",
+        "vision": "라이브스테이지는 전 세계 팬덤과 크리에이터가 콘텐츠로 연결되어, 함께 만들고 경험하며 가치를 나누는 팬덤 콘텐츠 커머스 플랫폼 입니다.<br></br>음악, 연기, 스포츠, 게임 등 장르를 넘나드는 팬덤의 열정이 이곳에서 하나의 문화이자 시장으로 이어집니다.",
+        "vision-element-1": "혁신",
+        "vision-element-2": "다양성",
+        "vision-element-3": "포용성",
+        "vision-element-4": "투명성",
+        "vision-element-5": "지속 가능성"
+    },
+
+    "news": {
+        "introduce": "소중한 고객님께, 공지사항을 전달드립니다. 자세한 내용은 아래를 참고해 주세요.",
+        "current-page": "현재페이지",
+        "total": "총 {total} 개",
+        "placeholder": "검색어를 입력하세요.",
+        "search": "검색",
+        "number": "번호",
+        "title": "제목",
+        "author": "작성자",
+        "date": "작성일",
+        "view": "조회수",
+        "disabled": "사용여부",
+        "management": "관리",
+        "site": "사이트",
+        "admin": "관리자",
+
+        "update": "수정하기",
+        "create": "등록하기",
+        "delete": "삭제하기",
+        "back": "목록으로",
+        "previous": "이전글",
+        "next": "다음글",
+        "cancel": "취소하기",
+
+        "see-more": "더 보기",
+
+        "no-article": "기사가 없습니다.",
+
+        "update-button": "수정",
+        "delete-button": "삭제",
+
+        "use": "사용",
+        "unuse": "사용안함",
+
+        "notification": "아래에 내용에 알맞게 입력하시기 바랍니다.",
+        "required": "표시는 필수입력사항입니다.",
+
+        "delete-notification": "이 뉴스 삭제를 확인해 주세요!",
+        "update-notification": "이 소식의 최신 소식을 확인해 주세요!",
+
+        "createdAt": "등록일",
+        "content": "콘텐츠",
+
+        "update-successful": "업데이트 성공!",
+        "update-failed": "업데이트 실패!",
+
+        "create-successful": "생성 성공!",
+        "create-failed": "생성 실패!",
+
+        "delete-successful": "삭제 성공!",
+        "delete-failed": "삭제 실패!"
+    },
+
+    "popup": {
+        "total": "총 {total} 개",
+        "placeholder": "검색어를 입력하세요.",
+        "search": "검색",
+        "number": "번호",
+        "title": "제목",
+        "link": "링크",
+        "image": "이미지",
+        "width": "너비",
+        "height": "높이",
+        "placement": "배치",
+        "site": "사이트",
+        "admin": "관리자",
+        "disabled": "사용여부",
+        "date": "작성일",
+        "management": "관리",
+        "margin": "여유",
+        "top": "위",
+        "bottom": "아래",
+        "left": "왼쪽",
+        "right": "오른쪽",
+
+        "update": "수정하기",
+        "create": "등록하기",
+        "delete": "삭제하기",
+        "back": "목록으로",
+        "previous": "이전글",
+        "next": "다음글",
+        "cancel": "취소하기",
+        "upload": "업로드",
+
+        "see-more": "더 보기",
+
+        "update-button": "수정",
+        "delete-button": "삭제",
+
+        "use": "사용",
+        "unuse": "사용안함",
+
+        "notification": "아래에 내용에 알맞게 입력하시기 바랍니다.",
+        "required": "표시는 필수입력사항입니다.",
+
+        "delete-notification": "이 뉴스 삭제를 확인해 주세요!",
+        "update-notification": "이 소식의 최신 소식을 확인해 주세요!",
+
+        "createdAt": "등록일",
+        "startDate": "시작 날짜",
+        "endDate": "종료 날짜",
+        "content": "콘텐츠",
+
+        "update-successful": "업데이트 성공!",
+        "update-failed": "업데이트 실패!",
+
+        "create-successful": "생성 성공!",
+        "create-failed": "생성 실패!",
+
+        "delete-successful": "삭제 성공!",
+        "delete-failed": "삭제 실패!",
+
+        "top-center": "수직: 위쪽, 수평: 가운데",
+        "top-left": "수직: 위쪽, 수평: 왼쪽",
+        "top-right": "수직: 위쪽, 수평: 오른쪽",
+        "middle-center": "수직: 가운데, 수평: 가운데",
+        "middle-left": "수직: 가운데, 수평: 왼쪽",
+        "middle-right": "수직: 가운데, 수평: 오른쪽",
+        "bottom-center": "수직: 아래쪽, 수평: 가운데",
+        "bottom-left": "수직: 아래쪽, 수평: 왼쪽",
+        "bottom-right": "수직: 아래쪽, 수평: 오른쪽",
+
+        "no-longer": "오늘 더 이상 열지 않기",
+        "close": "닫기",
+
+        "greater": "보다 큰"
+    },
+
+    "partner": {
+        "total": "총 {total} 개",
+        "placeholder": "검색어를 입력하세요.",
+        "search": "검색",
+        "number": "번호",
+        "title": "제목",
+        "link": "링크",
+        "image": "이미지",
+        "width": "너비",
+        "height": "높이",
+        "placement": "배치",
+        "site": "사이트",
+        "admin": "관리자",
+        "disabled": "사용여부",
+        "date": "작성일",
+        "management": "관리",
+        "margin": "여유",
+        "top": "위",
+        "bottom": "아래",
+        "left": "왼쪽",
+        "right": "오른쪽",
+
+        "update": "수정하기",
+        "create": "등록하기",
+        "delete": "삭제하기",
+        "back": "목록으로",
+        "previous": "이전글",
+        "next": "다음글",
+        "cancel": "취소하기",
+        "upload": "업로드",
+
+        "see-more": "더 보기",
+
+        "update-button": "수정",
+        "delete-button": "삭제",
+
+        "use": "사용",
+        "unuse": "사용안함",
+
+        "notification": "아래에 내용에 알맞게 입력하시기 바랍니다.",
+        "required": "표시는 필수입력사항입니다.",
+
+        "delete-notification": "이 뉴스 삭제를 확인해 주세요!",
+        "update-notification": "이 소식의 최신 소식을 확인해 주세요!",
+
+        "createdAt": "등록일",
+        "startDate": "시작 날짜",
+        "endDate": "종료 날짜",
+        "content": "콘텐츠",
+
+        "update-successful": "업데이트 성공!",
+        "update-failed": "업데이트 실패!",
+
+        "create-successful": "생성 성공!",
+        "create-failed": "생성 실패!",
+
+        "delete-successful": "삭제 성공!",
+        "delete-failed": "삭제 실패!",
+
+        "no-longer": "오늘 더 이상 열지 않기",
+        "close": "닫기",
+
+        "greater": "보다 큰"
+    },
+
+    "user": {
+        "current-page": "현재페이지",
+        "total": "총 {total} 개",
+        "placeholder": "검색어를 입력하세요.",
+        "search": "검색",
+        "number": "번호",
+        "date": "작성일",
+        "site": "Site",
+        "role": "Role",
+        "name": "Name",
+        "management": "관리",
+        "username": "아이디",
+
+        "update": "수정하기",
+        "create": "등록하기",
+        "delete": "삭제하기",
+        "back": "목록으로",
+        "previous": "이전글",
+        "next": "다음글",
+        "cancel": "취소하기",
+
+        "owner": "소유자",
+        "admin": "관리자",
+
+        "update-button": "수정",
+        "delete-button": "삭제",
+
+        "notification": "아래에 내용에 알맞게 입력하시기 바랍니다.",
+        "required": "표시는 필수입력사항입니다.",
+
+        "delete-notification": "이 사용자의 삭제를 확인해 주세요!",
+        "update-notification": "이 사용자의 업데이트를 확인해 주세요!",
+
+        "createdAt": "등록일",
+
+        "update-successful": "업데이트 성공!",
+        "update-failed": "업데이트 실패!",
+
+        "create-successful": "생성 성공!",
+        "create-failed": "생성 실패!",
+
+        "delete-successful": "삭제 성공!",
+        "delete-failed": "삭제 실패!"
+    },
+
+    "login": {
+        "description": "라이브 스테이지 관리자 페이지입니다.",
+        "username": "아이디",
+        "password": "비밀번호",
+        "button": "로그인",
+        "success": "로그인 성공!",
+        "error": "잘못된 사용자 이름 또는 비밀번호.",
+        "sign-success": "성공적인 만들기!",
+        "sign-error": "사용자 이름 또는 이메일에 이미 계정이 있습니다!",
+
+        "logout-successful": "성공적으로 로그아웃되었습니다."
+    },
+
+    "admin": {
+        "title": "{name}",
+        "welcome": "환영합니다.",
+        "manager": "관리 시스템",
+        "admin": "메인",
+        "back": "이전페이지",
+        "create": "등록하기",
+        "delete": "선택목록삭제",
+        "update": "업데이트",
+        "news": "뉴스",
+        "popup": "팝업관리",
+        "partner": "파트너",
+        "user": "사용자",
+        "profile": "윤곽",
+        "logout": "로그아웃",
+        "change-password": "비밀번호 변경",
+        "cancel": "취소하기",
+
+        "description-1": "관리자 페이지입니다.",
+        "description-2": "좌측의 관리자 메뉴를 선택하시면 해당 내용을 확인하실 수 있습니다.",
+
+        "notification": "아래에 내용에 알맞게 입력하시기 바랍니다.",
+        "required": "표시는 필수입력사항입니다.",
+
+        "login-information": "로그인 정보",
+        "login-information-text": "로그인 횟수 : {count} / 마지막 로그인일 : {lastLog}",
+
+        "username": "아이디",
+        "password": "비밀번호",
+        "confirmPassword": "비밀번호 확인",
+        "name": "이름",
+        "email": "이메일",
+        "site": "사이트",
+
+        "update-successful": "업데이트 성공!",
+        "update-failed": "업데이트 실패!",
+
+        "create-successful": "생성 성공!",
+        "create-failed": "생성 실패!",
+
+        "delete-successful": "삭제 성공!",
+        "delete-failed": "삭제 실패!",
+
+        "delete-notification": "이 {path} 의 삭제를 확인해 주세요.!",
+        "update-notification": "이 뉴스의 업데이트를 확인해 주세요!"
+    },
+
+    "validation": {
+        "required": "{path} 필수입니다.",
+        "invalid": "{path} 유효하지 않습니다.",
+        "limit": "{path} 는 {min} 자에서 {max} 자 사이여야 합니다.",
+        "min": "{path}는 {min}보다 커야 합니다.",
+        "different": "{path}는 {path2}보다 {type}이어야 합니다.",
+        "regex": "{path} 에는 문자, 숫자, 특수문자가 포함되어야 합니다.",
+        "email": "잘못된 이메일 주소입니다.",
+        "confirmPassword": "비밀번호는 일치해야 합니다."
+    },
+
+    "region": {
+        "vn": "베트남",
+        "ko": "한국"
+    },
+
+    "share": {
+        "playback": "재생",
+        "goods": "상품",
+        "event": "이벤트",
+        "user event vote": "사용자 이벤트 투표",
+        "browser error msg": "브라우저가 비디오 태그를 지원하지 않습니다.",
+        "Open app": "앱 열기",
+        "Download app": "앱 다운로드",
+        "Goods details": "상품 상세정보",
+        "See translation": "번역 보기",
+        "Total amount": "총 금액",
+        "Shipping fee": "배송비",
+        "Delivery time": "배송 기간",
+        "Return and Refund": "반품 및 환불",
+        "add-shipping-fee": "{deliveryPeriod}일 <br></br> (제주도/도서산간 추가 배송비: {addFee})",
+        "return-refund": "사전에 판매자와 합의하면 더 원활하게 진행됩니다 <br></br> - 반품비: {returnFee} 편도 (왕복 배송비는 {returnFee2})<br></br> - 교환비: {exchangeFee}",
+        "Product description": "상품 설명",
+        "Contact customer center": "고객센터 문의",
+        "Shopping cart": "장바구니",
+        "Order now": "바로 주문하기",
+        "Chat": "채팅",
+        "Unlimited voting * Heart": "무제한 투표 * 하트",
+        "Share": "공유",
+        "Voting Certification": "투표 인증",
+        "Save": "저장",
+        "Candidate": "후보자",
+        "Comment": "댓글",
+        "Vote": "투표",
+        "participating": "참여 중",
+        "people": "명",
+        "Enter comment": "댓글 입력"
+    },
+
+    "terms": {
+        "AccessTerms": "이용약관",
+        "AppAccessTerms": "앱 이용약관",
+        "AppPrivacyTerms": "앱 개인정보처리방침",
+        "PrivacyTerms": "개인정보처리방침",
+        "IntellectualPropertyRightsAndPolicies": "지식재산권 정책",
+        "UserGeneratedContent": "사용자생성콘텐츠",
+        "CommunityGuidelines": "커뮤니티가이드라인",
+        "VirtualItemsPolicy": "가상아이템정책",
+        "YouthProtectionPolicy": "청소년보호정책"
+    },
+
+    "loading": {
+        "verifying": "인증 확인 중",
+        "verifying-message": "로그인 상태를 확인하는 동안 잠시 기다려 주세요",
+        "loading": "로딩 중",
+        "loading-message": "요청을 처리하는 동안 잠시 기다려 주세요",
+        "authenticating": "인증 중...",
+        "authenticating-message": "자격 증명을 확인하는 동안 잠시 기다려 주세요"
+    },
+
+    "user-info": {
+        "my-profile": {
+            "title": "내 프로필",
+            "profile-information": "프로필 정보",
+            "provider": "제공자",
+            "user-id": "사용자 ID",
+            "unknown": "알 수 없음",
+            "not-available": "해당 없음"
+        },
+        "album-photo": {
+            "title": "사진 앨범",
+            "download": "다운로드",
+            "share": "공유",
+            "likes": "좋아요"
+        },
+        "signin": {
+            "title": "계정 로그인",
+            "subtitle": "계정은 STAGE 애플리케이션의 사용자 데이터와 동기화됩니다.",
+            "stage-app": "STAGE",
+            "application": "애플리케이션",
+            "continue-with": "다음으로 계속",
+            "secure-fast": "안전하고 빠름",
+            "terms-of-service": "이용약관",
+            "privacy-policy": "개인정보처리방침"
+        },
+        "header": {
+            "about-us": "회사 소개",
+            "our-service": "서비스",
+            "partnership": "파트너십",
+            "contact": "연락처",
+            "news": "뉴스",
+            "collab": "협업",
+            "login": "로그인",
+            "personal-info": "개인정보",
+            "my-album": "내 앨범",
+            "logout": "로그아웃",
+            "site-menu": "사이트 메뉴",
+            "about-us-mobile": "회사 소개",
+            "our-service-mobile": "서비스",
+            "partnership-mobile": "파트너십",
+            "contact-mobile": "연락처",
+            "news-mobile": "뉴스"
+        }
+    }
+}

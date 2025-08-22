@@ -1,0 +1,439 @@
+{
+    "meta-data": {
+        "title": "Live Stage (STAGE) - Fandom Culture Platform",
+        "description": "LiveStage (STAGE) is a global fandom content commerce platform where fans and artists can communicate directly and indirectly.",
+        "manager-title": "LIVE STAGE - Admin",
+        "manager-description": "Live Stage, All fan activities at once on STAGE! K-POP fans' favorite must-have app, STAGE!"
+    },
+
+    "home": {
+        "intro": "STAGE is an integrated platform for global fandom, and aims to be a new cultural hub that connects various creators and fandoms, including K-POP, artists, actors, sports stars, and professional gamers.",
+        "service-title-sub-2": "VOTING",
+        "service-desc-1": "Enjoy with artists.",
+        "service-desc-2": "A real-time voting event you can participate in from anywhere in the world!",
+        "service-desc-3": "A collection of goods filled with fan love!",
+        "service-sub-desc-1": "Real-time communication and exclusive content!",
+        "service-sub-desc-2": "Today's favorite chosen by us",
+        "service-sub-desc-3": "Meet your favorite item right now 😊",
+        "sub-intro": "We want to expand the role of fans beyond consumption to active participation and creation.<br></br>STAGE, which integrates content experience, community activities, and commerce into a single journey, creates a sustainable ecosystem where fans and artists around the world grow together.<li>For Creators: Opportunities for a wider and more diverse global stage and revenue diversification</li> <li>For Fans: Deeper connections, experiences, and shared identities</li>STAGE understands the essence of fandom and connects the diversity and potential of fandoms around the world with technology and content. We aim to be the next-generation standard platform that leads global fandom culture.",
+        "vision": "LiveStage is a fandom content commerce platform where fans and creators around the world connect through content, create, experience, and share value together. <br></br>The passion of fandoms across genres such as music, acting, sports, and games is connected here as a culture and market.",
+        "vision-element-1": "Innovation",
+        "vision-element-2": "Diversity",
+        "vision-element-3": "Inclusivity",
+        "vision-element-4": "Transparency",
+        "vision-element-5": "Sustainability"
+    },
+
+    "news": {
+        "introduce": "Dear customers, we have an announcement for you. Please refer to the details below.",
+        "current-page": "Current page",
+        "total": "Total: {total}",
+        "placeholder": "Enter your search term.",
+        "search": "Search",
+        "number": "No.",
+        "title": "Title",
+        "author": "Author",
+        "date": "Date",
+        "view": "Views",
+        "disabled": "Availability",
+        "management": "Management",
+        "site": "Site",
+        "admin": "Admin",
+
+        "update": "Update",
+        "create": "Create",
+        "delete": "Delete",
+        "back": "Back",
+        "previous": "Previous",
+        "next": "Next",
+        "cancel": "Cancel",
+
+        "see-more": "See more",
+
+        "no-article": "There is no articles.",
+
+        "update-button": "Edit",
+        "delete-button": "Delete",
+
+        "use": "Use",
+        "unuse": "Disabled",
+
+        "notification": "Please enter the appropriate content below.",
+        "required": "Marking is required.",
+
+        "delete-notification": "Please confirm deletion of this news!",
+        "update-notification": "Please confirm updates of this news!",
+
+        "createdAt": "Date",
+        "content": "Content",
+
+        "update-successful": "Update successful!",
+        "update-failed": "Update failed!",
+
+        "create-successful": "Create successful!",
+        "create-failed": "Create failed!",
+
+        "delete-successful": "Delete successful!",
+        "delete-failed": "Delete failed!"
+    },
+
+    "popup": {
+        "total": "Total: {total}",
+        "placeholder": "Enter your search term.",
+        "search": "Search",
+        "number": "No.",
+        "title": "Title",
+        "link": "Link",
+        "image": "Image",
+        "width": "Width",
+        "height": "Height",
+        "placement": "Placement",
+        "site": "Site",
+        "admin": "Admin",
+        "disabled": "Availability",
+        "date": "Date",
+        "management": "Management",
+        "margin": "Margin",
+        "top": "Top",
+        "bottom": "Bottom",
+        "left": "Left",
+        "right": "Right",
+
+        "update": "Update",
+        "create": "Create",
+        "delete": "Delete",
+        "back": "Back",
+        "previous": "Previous",
+        "next": "Next",
+        "cancel": "Cancel",
+        "upload": "Upload",
+
+        "see-more": "See more",
+
+        "update-button": "Edit",
+        "delete-button": "Delete",
+
+        "use": "Use",
+        "unuse": "Disabled",
+
+        "notification": "Please enter the appropriate content below.",
+        "required": "Marking is required.",
+
+        "delete-notification": "Please confirm deletion of this pop-up!",
+        "update-notification": "Please confirm updates of this pop-up!",
+
+        "createdAt": "Date",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "content": "Content",
+
+        "update-successful": "Update successful!",
+        "update-failed": "Update failed!",
+
+        "create-successful": "Create successful!",
+        "create-failed": "Create failed!",
+
+        "delete-successful": "Delete successful!",
+        "delete-failed": "Delete failed!",
+
+        "top-center": "Vertical: Top, Horizontal: Center",
+        "top-left": "Vertical: Top, Horizontal: Left",
+        "top-right": "Vertical: Top, Horizontal: Right",
+        "middle-center": "Vertical: Middle, Horizontal: Center",
+        "middle-left": "Vertical: Middle, Horizontal: Left",
+        "middle-right": "Vertical: Middle, Horizontal: Right",
+        "bottom-center": "Vertical: Bottom, Horizontal: Center",
+        "bottom-left": "Vertical: Bottom, Horizontal: Left",
+        "bottom-right": "Vertical: Bottom, Horizontal: Right",
+
+        "no-longer": "No more opening today",
+        "close": "Close",
+
+        "greater": "greater"
+    },
+
+    "partner": {
+        "total": "Total: {total}",
+        "placeholder": "Enter your search term.",
+        "search": "Search",
+        "number": "No.",
+        "title": "Title",
+        "link": "Link",
+        "image": "Image",
+        "width": "Width",
+        "height": "Height",
+        "placement": "Placement",
+        "site": "Site",
+        "admin": "Admin",
+        "disabled": "Availability",
+        "date": "Date",
+        "management": "Management",
+        "margin": "Margin",
+        "top": "Top",
+        "bottom": "Bottom",
+        "left": "Left",
+        "right": "Right",
+
+        "update": "Update",
+        "create": "Create",
+        "delete": "Delete",
+        "back": "Back",
+        "previous": "Previous",
+        "next": "Next",
+        "cancel": "Cancel",
+        "upload": "Upload",
+
+        "see-more": "See more",
+
+        "update-button": "Edit",
+        "delete-button": "Delete",
+
+        "use": "Use",
+        "unuse": "Disabled",
+
+        "notification": "Please enter the appropriate content below.",
+        "required": "Marking is required.",
+
+        "delete-notification": "Please confirm deletion of this pop-up!",
+        "update-notification": "Please confirm updates of this pop-up!",
+
+        "createdAt": "Date",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "content": "Content",
+
+        "update-successful": "Update successful!",
+        "update-failed": "Update failed!",
+
+        "create-successful": "Create successful!",
+        "create-failed": "Create failed!",
+
+        "delete-successful": "Delete successful!",
+        "delete-failed": "Delete failed!",
+
+        "no-longer": "No more opening today",
+        "close": "Close",
+
+        "greater": "greater"
+    },
+
+    "user": {
+        "current-page": "Current page",
+        "total": "Total: {total}",
+        "placeholder": "Enter your search term.",
+        "search": "Search",
+        "number": "No.",
+        "date": "Date",
+        "site": "Site",
+        "role": "Role",
+        "name": "Name",
+        "management": "Management",
+        "username": "Username",
+
+        "update": "Update",
+        "create": "Create",
+        "delete": "Delete",
+        "back": "Back",
+        "previous": "Previous",
+        "next": "Next",
+        "cancel": "Cancel",
+
+        "owner": "Owner",
+        "admin": "Admin",
+
+        "update-button": "Edit",
+        "delete-button": "Delete",
+
+        "notification": "Please enter the appropriate content below.",
+        "required": "Marking is required.",
+
+        "delete-notification": "Please confirm deletion of this user!",
+        "update-notification": "Please confirm updates of this user!",
+
+        "createdAt": "Date",
+
+        "update-successful": "Update successful!",
+        "update-failed": "Update failed!",
+
+        "create-successful": "Create successful!",
+        "create-failed": "Create failed!",
+
+        "delete-successful": "Delete successful!",
+        "delete-failed": "Delete failed!"
+    },
+
+    "login": {
+        "description": "This is the Live Stage Manager page.",
+        "username": "Username",
+        "password": "Password",
+        "button": "Login",
+        "success": "Login successful!",
+        "error": "Invalid username or password.",
+        "sign-success": "Create successful!",
+        "sign-error": "User name or email already has an account!",
+
+        "logout-successful": "Logged out successfully."
+    },
+
+    "admin": {
+        "title": "{name}",
+        "welcome": "Stage Manager",
+        "manager": "Management System",
+        "admin": "Admin",
+        "back": "Back",
+        "create": "Create",
+        "delete": "Delete",
+        "update": "Update",
+        "news": "News",
+        "popup": "Pop-up",
+        "partner": "Partner",
+        "user": "User",
+        "profile": "Profile",
+        "logout": "Logout",
+        "change-password": "Password",
+        "cancel": "Cancel",
+
+        "description-1": "This is the administrator page.",
+        "description-2": "You can check the contents by selecting the administrator menu on the left.",
+
+        "notification": "Please enter the appropriate content below.",
+        "required": "Marking is required.",
+
+        "login-information": "Information",
+        "login-information-text": "Number of logins: {count} - Last login date: {lastLog}",
+
+        "username": "Username",
+        "password": "Password",
+        "confirmPassword": "Confirm your password",
+        "name": "Name",
+        "email": "Email",
+        "site": "Site",
+
+        "update-successful": "Update successful!",
+        "update-failed": "Update failed!",
+
+        "create-successful": "Create successful!",
+        "create-failed": "Create failed!",
+
+        "delete-successful": "Delete successful!",
+        "delete-failed": "Delete failed!",
+
+        "delete-notification": "Please confirm deletion of these {path}!",
+        "update-notification": "Please confirm updates of these news!"
+    },
+
+    "validation": {
+        "required": "{path} is required.",
+        "invalid": "{path} is invalid.",
+        "limit": "{path} must be between {min} to {max} characters.",
+        "min": "{path} must be greater than {min}.",
+        "different": "{path} must be {type} than {path2}.",
+        "regex": "{path} must include letters, numbers, and special characters.",
+        "email": "Invalid email address.",
+        "confirmPassword": "Password must match."
+    },
+
+    "region": {
+        "vn": "VietNam",
+        "ko": "Korea"
+    },
+
+    "share": {
+        "playback": "playback",
+        "goods": "goods",
+        "event": "event",
+        "user event vote": "user event vote",
+        "browser error msg": "Your browser does not support the video tag.",
+        "Open app": "Open app",
+        "Download app": "Download app",
+        "Goods details": "Goods details",
+        "See translation": "See translation",
+        "Total amount": "Total amount",
+        "Shipping fee": "Shipping fee",
+        "Delivery time": "Delivery time",
+        "Return and Refund": "Return and Refund",
+        "add-shipping-fee": "{deliveryPeriod} days <br></br> (Additional shipping fee for Jeju Island/mountains islands: {addFee})",
+        "return-refund": "If agreed with the seller in advance, this will go more smoothly <br></br> - Return fee: {returnFee} one way (Round-trip shipping fee is {returnFee2})<br></br> - Exchange fee: {exchangeFee}",
+        "Product description": "Product description",
+        "Contact customer center": "Contact customer center",
+        "Shopping cart": "Cart",
+        "Order now": "Order now",
+        "Chat": "Chat",
+        "Unlimited voting * Heart": "Unlimited voting * Heart",
+        "Share": "Share",
+        "Voting Certification": "Voting Certification",
+        "Save": "Save",
+        "Candidate": "Candidate",
+        "Comment": "Comment",
+        "Vote": "Vote",
+        "participating": "participating",
+        "people": "people",
+        "Enter comment": "Enter comment"
+    },
+
+    "terms": {
+        "AccessTerms": "Access Terms",
+        "AppAccessTerms": "App Access Terms",
+        "AppPrivacyTerms": "App Privacy Terms",
+        "PrivacyTerms": "Privacy Terms",
+        "IntellectualPropertyRightsAndPolicies": "Intellectual Property Rights and Policies",
+        "UserGeneratedContent": "User Generated Content",
+        "CommunityGuidelines": "Community Guidelines",
+        "VirtualItemsPolicy": "Virtual Items Policy",
+        "YouthProtectionPolicy": "Youth Protection Policy"
+    },
+
+    "loading": {
+        "verifying": "Verifying Authentication",
+        "verifying-message": "Please wait while we check your login status",
+        "loading": "Loading",
+        "loading-message": "Please wait while we process your request",
+        "authenticating": "Authenticating...",
+        "authenticating-message": "Please wait while we verify your credentials"
+    },
+
+    "user-info": {
+        "my-profile": {
+            "title": "My Profile",
+            "profile-information": "Profile Information",
+            "provider": "Provider",
+            "user-id": "User ID",
+            "unknown": "Unknown",
+            "not-available": "N/A"
+        },
+        "album-photo": {
+            "title": "Photo Album",
+            "download": "Download",
+            "share": "Share",
+            "likes": "likes"
+        },
+        "signin": {
+            "title": "Login Account",
+            "subtitle": "The account will be synchronized with user data on the",
+            "stage-app": "STAGE",
+            "application": "application.",
+            "continue-with": "Continue with",
+            "secure-fast": "Secure & Fast",
+            "terms-of-service": "Terms of Service",
+            "privacy-policy": "Privacy Policy"
+        },
+        "header": {
+            "about-us": "ABOUT US",
+            "our-service": "OUR SERVICE",
+            "partnership": "PARTNERSHIP",
+            "contact": "CONTACT",
+            "news": "NEWS",
+            "collab": "COLLAB",
+            "login": "Login",
+            "personal-info": "Personal Information",
+            "my-album": "My Album",
+            "logout": "Logout",
+            "site-menu": "Site menu",
+            "about-us-mobile": "About us",
+            "our-service-mobile": "Our Service",
+            "partnership-mobile": "Partnership",
+            "contact-mobile": "Contact",
+            "news-mobile": "News"
+        }
+    }
+}

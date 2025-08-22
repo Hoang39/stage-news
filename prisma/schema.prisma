@@ -1,0 +1,70 @@
+generator client {
+    provider = "prisma-client-js"
+}
+
+datasource db {
+    provider = "mysql"
+    url      = env("DATABASE_URL")
+}
+
+model news {
+    id        Int      @id @default(autoincrement())
+    author    String
+    content   String   @db.Text
+    slug      String   @unique
+    title     String
+    site      String   
+    views     Int
+    disabled  Boolean  @default(false)
+    createdAt DateTime @default(now()) @map("created_at")
+
+    userId    Int
+    user      users    @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model popup {
+    id        Int      @id @default(autoincrement())
+    title     String
+    link      String   @default("")
+    image     String
+    width     Int
+    height    Int
+    placement String
+    site      String  
+    margin    String   @default("0-0-0-0") 
+    disabled  Boolean  @default(false)
+    startDate DateTime @default(now()) @map("start_date")
+    endDate   DateTime @default(now()) @map("end_date")
+
+    userId    Int
+    user      users    @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model partner {
+    id        Int      @id @default(autoincrement())
+    title     String
+    link      String   @default("")
+    image     String
+    disabled  Boolean  @default(false)
+    date      DateTime @default(now())
+
+    userId    Int
+    user      users    @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model users {
+    id        Int      @id @default(autoincrement())
+    count     Int
+    email     String   @unique
+    lastLog   DateTime @map("last_log")
+    name      String
+    password  String
+    username  String   @unique
+    site      String   @default("localhost:3000")
+    role      String   
+    createdAt DateTime @default(now()) @map("created_at")
+    
+    news      news[]
+    popup     popup[] 
+    partner   partner[]
+}

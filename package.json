@@ -7,7 +7,7 @@
         "dev": "cp .env .env.local && npm run use -- npx prisma generate && next dev --turbopack",
         "build:local": "cp .env .env.local && npm run use -- npx prisma generate && next build",
         "build:clever": "cp .env.clever .env.local && npm run use -- npx prisma generate && next build",
-        "build": "npx prisma generate && next build",
+        "build": "next build --turbopack",
         "start": "npm run use -- npx prisma generate && next start",
         "lint": "next lint",
         "lint:fix": "next lint --fix",
